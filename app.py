@@ -10,7 +10,6 @@ import requests
 
 # Load environment variables from a .env file (if exists)
 load_dotenv()
-nlp = spacy.load("en_core_web_sm")
 
 # Load AI21 API key from environment variable or replace with your key
 AI21_API_KEY = os.getenv("AI21_API_KEY", "S39YXKUEt3xEbGIOdYnwisHEjfqfcTo0")
