@@ -6,4 +6,4 @@ langchain-community
 faiss-cpu  # Assuming CPU-based FAISS vector store
 python-dotenv
 requests
-python -m spacy download en_core_web_sm
+spacy en_core_web_sm
