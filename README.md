@@ -41,7 +41,11 @@ NexaSync AI operates in a multi-step process to facilitate a conversational inte
    - Activate your virtual environment (if created).
    - Install the necessary libraries using pip:
      ```bash
-     pip install streamlit spacy langchain langchain-community pyfaiss dotenv requests
+     pip install streamlit spacy langchain langchain-community faiss-cpu dotenv requests
+     ```
+   - Install spacy en_core_web_sm
+     ```bash
+     python -m spacy download en_core_web_sm
      ```
 
 **Usage**
