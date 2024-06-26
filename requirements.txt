@@ -1,5 +1,6 @@
 streamlit
-spacy>=3.0.0  # Consider specifying a compatible minor version (e.g., spacy==3.4.2)
+spacy>=3.0.0
+spacy-download # Consider specifying a compatible minor version (e.g., spacy==3.4.2)
 PyPDF2
 langchain
 langchain-community
