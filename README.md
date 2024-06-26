@@ -87,5 +87,3 @@ NexaSync AI operates in a multi-step process to facilitate a conversational inte
 - **Error Handling:** The code incorporates error handling mechanisms to gracefully address potential issues with the AI21 API or the processing pipeline. However, unexpected errors might still occur. In such cases, the application will provide an error message or a generic response.
 
 - **Performance Optimization:** For very large PDFs or numerous documents, consider techniques like chunking the text into smaller parts for processing or exploring alternative vector storage methods.
-
-I hope this enhanced README.md provides a clear and comprehensive guide for using NexaSync AI! Feel free to adapt it further based on your specific requirements.
