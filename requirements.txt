@@ -1,1 +1,8 @@
-
+streamlit
+spacy>=3.0.0  # Consider specifying a compatible minor version (e.g., spacy==3.4.2)
+PyPDF2
+langchain
+langchain-community
+faiss-cpu  # Assuming CPU-based FAISS vector store
+python-dotenv
+requests
