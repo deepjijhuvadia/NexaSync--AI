@@ -12,7 +12,7 @@ import requests
 load_dotenv()
 
 # Load AI21 API key from environment variable or replace with your key
-AI21_API_KEY = os.getenv("AI21_API_KEY", "S39YXKUEt3xEbGIOdYnwisHEjfqfcTo0")
+AI21_API_KEY = os.getenv("AI21_API_KEY", "Your_Key")
 # Ensure the model is installed and loaded
 nlp = spacy.load("en_core_web_sm")
 embeddings = SpacyEmbeddings(model_name="en_core_web_sm")
